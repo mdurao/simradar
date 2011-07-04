@@ -480,7 +480,7 @@ begin
   state := 0;
   showFixes := True;
   showVORs := True;
-  showNDBs := True;
+  showNDBs := False;
   ReadSectorFile('portugal.sct');
   ReadFixesFile('fixes-pt.txt');
   ReadVorsFile('vors-pt.txt');
